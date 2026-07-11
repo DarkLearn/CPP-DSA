@@ -9,7 +9,7 @@ int main (){
     cin>>n2;
     cout<<"Enter marks3: ";
     cin>>n3;
-    float avg = (n1 + n2 + n3)/3;
+    float avg = (n1 + n2 + n3)/3.0;
     cout<<"Average marks: " << avg << "\n";
     return 0;
 }
